@@ -1,0 +1,56 @@
+/* !important prevents the common CSS stylesheets from overriding
+   this as on RTD they are loaded after this stylesheet */
+
+.wy-side-nav-search {
+    background-color: #107da6 !important;
+}
+
+.wy-side-nav-search .wy-dropdown > a img.logo, .wy-side-nav-search > a img.logo {
+    max-width: 75% !important;
+}
+
+.wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
+    content: "COUNTER Code of Practice\A for Research Data";
+    white-space: pre;
+    font-weight: 400;
+}
+
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+.rst-content table.docutils thead th {
+    vertical-align: top !important;
+    white-space: normal !important;
+}
+
+.wy-table-responsive table td {
+    white-space: normal !important;
+}
+
+.rst-content table.docutils td {
+    vertical-align: top !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+}
+
+.rst-content table.docutils td p {
+    line-height: 24px !important;
+    margin-bottom: 12px !important;
+}
+
+.rst-content table.docutils td p:last-child {
+    margin-bottom: 0px !important;
+}
+
+.rst-content table.docutils td .line-block {
+    margin-bottom: 0px !important;
+}
+
+/* Hide "On Read the Docs" and "On GitHub" sections from versions menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
+    display: none;
+}
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
+    display: none;
+}
