@@ -10,7 +10,7 @@
 }
 
 .wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
-    content: "COUNTER Code of Practice\A for Research Data";
+    content: "COUNTER Code of Practice for Research Data";
     white-space: pre;
     font-weight: 400;
 }

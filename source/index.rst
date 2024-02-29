@@ -29,20 +29,16 @@ The COUNTER Code of Practice for Research Data
    :numbered:
    :hidden:
 
-.. 01-introduction
-.. 02-overview
+.. 01-foreword
+.. 02-abstract
 .. 03-specifications
 .. 04-reports 
 .. 05-delivery
 .. 06-logging
 .. 07-processing
 .. 08-sushi
-.. 09-audit
-.. 10-compliance
-.. 11-extending
-.. 12-maintenance
-.. 13-transitioning
-.. 14-history
+.. 09-acknowledgements
+.. 10-references
 
 .. toctree::
    :maxdepth: 0
