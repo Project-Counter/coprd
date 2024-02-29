@@ -31,14 +31,18 @@ The COUNTER Code of Practice for Research Data
 
 .. 01-foreword
 .. 02-abstract
-.. 03-specifications
-.. 04-reports 
-.. 05-delivery
-.. 06-logging
-.. 07-processing
-.. 08-sushi
-.. 09-acknowledgements
-.. 10-references
+.. 03-execsummary
+.. 04-conventions
+.. 05-introduction
+.. 06-overview
+.. 07-specifications
+.. 08-reports
+.. 09-delivery
+.. 10-logging
+.. 11-processing
+.. 12-sushi
+.. 13-acknowledgements
+.. 14-references
 
 .. toctree::
    :maxdepth: 0
