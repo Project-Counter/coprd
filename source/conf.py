@@ -184,7 +184,7 @@ latex_elements = {
     ''',
     'maketitle': r'''
         \hypersetup{
-            pdftitle={COUNTER Code of Practice Release 5.1},
+            pdftitle={COUNTER Code of Practice for Research Data},
             pdfauthor={COUNTER}
         }
         \pagenumbering{Roman}
@@ -195,9 +195,9 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Release 5.1}}\par
+                {\Huge \textbf{\color{TitleColor} Research Data}}\par
                 \vspace{50pt}
-                {Published: 5 May 2023}\par
+                {Published: September 2018}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -209,9 +209,8 @@ latex_elements = {
             \textbf{\large \color{TitleColor} Abstract}\par
             \vspace{5pt}
             \rmfamily
-            {COUNTER’s report consumer and report provider members have contributed to the development of Release 5.1 (R5.1) of the COUNTER Code of Practice.}\par
-            {The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.}\par
-            {Release 5.1 (published 5 May 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.}\par
+            {COUNTER and the Make Data Count project contributed to the development of the COUNTER Code of Practice for Research Data.}\par
+            {The Code of Practice for Research Data Usage Metrics standardizes the generation and distribution of usage metrics for research data, enabling for the first time the consistent and credible reporting of research data usage.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
@@ -219,7 +218,7 @@ latex_elements = {
             \centering
             \fbox{%
                 \begin{minipage}{0.80\textwidth}
-                    The Code of Practice is available from the \href{https://www.projectcounter.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5 of the Code of Practice.
+                    The Code of Practice for Research Data is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for the Code of Practice for Research Data.
                 \end{minipage}
             }
             \vspace{50pt}
