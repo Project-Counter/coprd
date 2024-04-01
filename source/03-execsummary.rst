@@ -1,0 +1,25 @@
+.. The COUNTER Code of Practice for Research Data © 2017-2024 by COUNTER Metrics
+   is licensed under CC BY-SA 4.0. To view a copy of this license,
+   visit https://creativecommons.org/licenses/by-sa/4.0/
+
+Executive Summary
+=================
+
+
+Usage metrics for research data are seen as an important indicator of impact by researchers and other stakeholders (Costas, Meijer, Zahedi, & Wouters, 2013, Kratz & Strasser, 2015), second only to data citations. They currently can’t fill that role due to the lack of standardization on how usage metrics should be collected and reported.
+
+The Code of Practice for Research Data Usage Metrics standardizes the generation and distribution of usage metrics for research data. This enables data repositories and platform providers to produce consistent and credible usage metrics for research data, and helps data repositories, libraries, funders and other stakeholders to understand and demonstrate the reuse of research data.
+
+This is the first release of the Code of Practice for Research Data Usage Metrics. The recommendations are aligned as much as possible with the <a href="https://cop5.projectcounter.org/en/5.0.3/">COUNTER Code of Practice Release 5<\a> (COUNTER Code of Practice Release 5, 2017) that standardizes usage metrics for many scholarly resources, including journals and books. Many definitions, processing rules, and reporting recommendations apply to research data in the same way as they apply to other scholarly resources.
+
+The dataset (a collection of data published or curated by a single agent) is the content item for which we report usage in terms of investigations (i.e. how many times metadata are accessed) and requests (i.e. how many times data are retrieved, a subset of all investigations). Investigations and requests for components of the dataset can be reported in the same way as other scholarly resources under COUNTER Code of Practice Release 5, in that the total number of investigations or requests are summed across the components of a given dataset. Sessions allow the differentiation between total investigations and requests of a dataset (in which all accesses are summed) and unique investigations and requests (in which accesses are only counted once per dataset if they are within a unique user-session), aligned with the reporting for content items in COUNTER Code of Practice Release 5.
+
+Some aspects of the processing and reporting of usage data are unique to research data, and the Code of Practice for Research Data Usage Metrics thus at times needs to deviate from the COUNTER Code of Practice Release 5 and specifically address them. This starts with the main use cases for data usage metrics reporting: subscription access to research data is uncommon, therefore breaking down the usage data by institution accessing the research data is less relevant. While there is interest in understanding the geographic distribution of investigations and requests to research data, these usage data can be reported at a coarser granularity (by country rather than by institution) and can be aggregated and openly shared.
+
+COUNTER Code of Practice Release 5 focuses usage reporting on human users and filters out all known robots, crawlers, and spiders. While the same exclusion list should be applied to research data, there is significant legitimate usage in which humans employ scripts and other automated tools in the normal course of research. The Code of Practice for Research Data Usage Metrics defines how usage metrics from these automated tools used can be reported.
+
+Versioning is much more common and complex with research data compared to most other scholarly resources, and the Code of Practice for Research Data Usage Metrics addresses this. We recommend reporting usage metrics for each specific version, as well as the combined usage for all versions. This first release of the Code of Practice for Research Data Usage Metrics will not fully address the particular challenges associated with reporting usage for dynamically changing datasets.
+
+Research data can be retrieved in a wide variety of file formats, different from text-based scholarly resources. For the Code of Practice for Research Data Usage Metrics we will not break down requests by file format. We will include the data volume transferred as part of the reporting, since the variations are much greater than for other scholarly resources. Reporting request data transfer volume in addition to the number of requests and investigations also helps with understanding differences between data repositories with regards to how data are packaged and made available for retrieval.
+
+The Code of Practice for Research Data Usage Metrics enables the reporting of usage metrics by different data repositories following common best practices, and thus is an essential step towards realizing usage metrics to facilitate understanding how publicly available research datas are being reused. This complements ongoing work on establishing best practices and services for data citation (Burton, Fenner, Haak, & Manghi, 2017).
