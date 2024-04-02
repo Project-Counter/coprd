@@ -10,5 +10,5 @@ Appendices
    :maxdepth: 1
    :hidden:
 
-.. a-glossary
-.. b-errors
+   a-glossary
+   b-errors

@@ -11,11 +11,11 @@ Aligned as much as possible with the COUNTER Code of Practice Release 5 glossary
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.3}|>{\parskip=\tparskip}\Y{0.7}|
 
 .. list-table::
    :class: longtable
-   :widths: 20 54 26
+   :widths: 30 70
    :header-rows: 1
 
    * - Term
@@ -146,4 +146,3 @@ Aligned as much as possible with the COUNTER Code of Practice Release 5 glossary
 
    * - Year of Publication (YOP)
      - Calendar year in which a dataset is published.
-\*

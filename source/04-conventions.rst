@@ -18,4 +18,4 @@ Note that the force of these words is modified by the requirement level of the d
 
 Content providers implementing the Code of Practice for Research Data Usage Metrics who feel they have a valid disagreement with a requirement of the code are requested to contact the authors and ask for clarification on interpretation of the code.
 
-Terms appearing in italics represent variables that will be replaced with appropriate values at implementation time, for example <i>“Error_Number : Error_Description”<\i> might resolve to “3040 : Partial Usage Available”.
+Terms appearing in italics represent variables that will be replaced with appropriate values at implementation time, for example *“Error_Number : Error_Description”* might resolve to “3040 : Partial Usage Available”.

@@ -21,11 +21,11 @@ Table 3.2 (below): Reports Header Elements
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.19}|>{\parskip=\tparskip}\Y{0.44}|>{\raggedright\arraybackslash}\Y{0.37}|
 
 .. list-table::
    :class: longtable
-   :widths: 10 18 48 24
+   :widths: 13 54 33
    :header-rows: 1
 
    * - Element Name
@@ -58,7 +58,7 @@ Table 3.2 (below): Reports Header Elements
      - Attributes_To_Show=Access_Method
      
    * - Exceptions
-     - An indication of some difference between the usage that was created and the usage that is being presented in the report. The format for the exception values are: “Error_No: Exception_Description” (Data). The <b>Error_No<\b> and <b>Exception_Description<\b> MUST match values provided in Table B.1 of Appendix B. The data is OPTIONAL.
+     - An indication of some difference between the usage that was created and the usage that is being presented in the report. The format for the exception values are: “Error_No: Exception_Description” (Data). The **Error_No** and **Exception_Description** MUST match values provided in Table B.1 of Appendix B. The data is OPTIONAL.
        Note that for tabular reports, only the limited set of exceptions where usage is returned will apply.
      - 3040: Partial Data Returned (request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-30).
        3040: Partial Data Returned
@@ -79,4 +79,3 @@ Table 3.2 (below): Reports Header Elements
    * - (blank row)
      - Row 11 MUST be blank.
      - 
-\*

@@ -21,31 +21,27 @@ The COUNTER Code of Practice for Research Data
    :maxdepth: 0
    :hidden:
 
-   00-foreword
-.. 00-conventions
-
 .. toctree::
    :maxdepth: 3
    :numbered:
    :hidden:
 
-.. 01-foreword
-.. 02-abstract
-.. 03-execsummary
-.. 04-conventions
-.. 05-introduction
-.. 06-overview
-.. 07-specifications
-.. 08-reports
-.. 09-delivery
-.. 10-logging
-.. 11-processing
-.. 12-sushi
-.. 13-acknowledgements
-.. 14-references
+   01-foreword
+   02-abstract
+   03-execsummary
+   04-conventions
+   05-introduction
+   07-specifications/index
+   08-reports
+   09-delivery
+   10-logging
+   11-processing
+   12-sushi
+   13-acknowledgements
+   14-references
 
 .. toctree::
    :maxdepth: 0
    :hidden:
 
-.. appendices/index
+   appendices/index
