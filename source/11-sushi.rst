@@ -35,7 +35,6 @@ Table 8.1 (below): Research Data SUSHI API Paths
 
    * - GET /reports/{ReportID}
      - Each supported report has its own path, e.g. GET /reports/DSR for dataset requests.
-\*
 
 
 Authentication and Security for the Research Data SUSHI API

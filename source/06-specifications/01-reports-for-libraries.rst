@@ -32,4 +32,3 @@ Table 3.1 (below): Master Reports
      - A granular customizable report showing activity at the level of the dataset that allows the user to apply filters and select configuration options.
      - Repository\ |br|\ |lb|
        Data Repository
-\*

@@ -8,10 +8,12 @@ Delivery of Reports
 Content providers MUST make tabular versions of reports available from an administrative/reporting site. All reports provided by the content provider MUST also be available via SUSHI protocols. Delivery requirements are:
 
 * Reports MUST be provided in both of the following formats:
+
   * Tab Separated Value (TSV) file that can be easily imported into spreadsheet programs such as Microsoft Excel without loss or corruption of data.
   * JSON formatted in accordance with the Research Data SUSHI API Specification (Research Data SUSHI API Specification, 2018).
 * Each report MUST be delivered as a separate file to facilitate automated processing of usage reports.
 * Tabular reports MUST be made available through a website.
+
   * The website MAY be password-controlled.
   * Email alerts MAY be sent when data is updated.
   * The report interface MUST provide filter and configuration options for the Master Reports that apply to the content provider.

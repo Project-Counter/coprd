@@ -15,8 +15,10 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
 .. centered:: Figure B: The SUSHI error model.
 
 As indicated in the JSON code in Figure B (above), multiple exceptions can be returned, and the exceptions have the following elements:
+
 * code: is a numeric exception number that identifies the exception. See table 1 for values.
 * severity: indicates if the exception is one of:
+
   * Fatal: unable to complete the transaction. The problem is with the service and may be temporary and a retry could be successful. No report is returned. Example: service busy.
   * Error: unable to complete the transaction. The problem is with the request such that a retry will not be successful unless the request or other configuration details change. No report is returned.  Example:  Requestor not authorized.
   * Warning: The transaction can be completed, but not all requested information could be returned. Examples: “Usage Not Ready for Requested Data; Partial Data Returned”
@@ -29,11 +31,11 @@ Table B.1 (below) provides a list of possible exceptions that may occur for Rese
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.2}|>{\parskip=\tparskip}\Y{0.18}|>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.49}|
 
 .. list-table::
    :class: longtable
-   :widths: 20 20 26 54
+   :widths: 20 18 13 49
    :header-rows: 1
 
    * - Exception (message)
@@ -148,7 +150,6 @@ Table B.1 (below) provides a list of possible exceptions that may occur for Rese
      - Warning
      - 3080
      - The requested value for limit (number of items to return) exceeds the server limit. The server is expected to return data in the response (up to the limit). The Message element of the exception should indicate the server limit.
-\*
 
 Note 1: An Error does not interrupt completion of the transaction (in the sense of a programmatic failure), although it may not return the expected report for the reason that is identified. A Fatal exception does not complete the transaction; the problem may be temporary and a retry could be successful.
 

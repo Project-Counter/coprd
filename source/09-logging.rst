@@ -6,6 +6,7 @@ Logging Usage
 =============
 
 Usage data can be generated in a number of ways, with two common approaches:
+
 * Log file analysis, which reads log files containing web server transaction records
 * Page tagging, which uses JavaScript to notify a third-party server when a page is rendered by a web browser.
 
@@ -16,6 +17,7 @@ Log File Analysis
 """""""""""""""""
 
 Advantages of log file analysis over page tagging include:
+
 * Web servers normally produce log files, so the raw data are already available. No changes to the website are required.
 * The data is on the organization’s own servers in a standard rather than proprietary format. This makes it easy for an organization to switch analysis programs later, use several different programs, and analyze historical data with a new program.
 * Log files contain information on visits from search engine spiders. Although these MUST NOT be reported as part of user activity, it is useful information for search engine optimization.
@@ -27,6 +29,7 @@ Page Tagging
 """"""""""""
 
 The main advantages of page tagging over log file analysis are:
+
 * Counting is activated by opening the page, not requesting it from the server. If a page is cached it will not be counted by the server. Cached pages can account for a significant proportion of page views.
 * Data is gathered via a component (tag) in the page, usually written in JavaScript, in conjunction with a server backend to manipulate and store the data in a database allowing complete control over how the data is represented.
 * The script may have access to additional information on the web client user that was not sent in the query.

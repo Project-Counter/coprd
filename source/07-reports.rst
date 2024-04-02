@@ -28,7 +28,6 @@ Table 4.1 (below): Dataset Master Report and Standard Views
      - A granular customizable report showing activity at the level of the dataset that allows the user to apply filters and select configuration options.
      - Repository\ |br|\ |lb|
        Data Repository
-\*
 
 
 Report Header
@@ -42,11 +41,11 @@ Table 4.2 (below): Header for Dataset Master Report and Standard Views
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.1}|>{\parskip=\tparskip}\Y{0.35}|>{\raggedright\arraybackslash}\Y{0.55}|
 
 .. list-table::
    :class: longtable
-   :widths: 10 18 48 24
+   :widths: 10 35 55
    :header-rows: 1
 
    * - Row
@@ -96,7 +95,6 @@ Table 4.2 (below): Header for Dataset Master Report and Standard Views
    * - 11
      - (blank)
      - (blank)
-\*
 
 
 Column Headings/Elements
@@ -108,11 +106,11 @@ Table 4.3 (below): Column Headings/Elements for Dataset Master Report and Standa
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.30}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
-   :widths: 10 18 48 24
+   :widths: 30 10
    :header-rows: 1
 
    * - Field name (Tabular)
@@ -160,8 +158,7 @@ Table 4.3 (below): Column Headings/Elements for Dataset Master Report and Standa
    * - mmm-yyyy
      - M
 
- * The tabular report MUST either include DOI, OTHER_ID or URL.
-\*
+\* The tabular report MUST either include DOI, OTHER_ID or URL.
 
 
 Filters and Attributes
@@ -173,11 +170,11 @@ Table 4.4 (below): Filters/Attributes for Dataset Master Report and Standard Vie
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.3}|>{\parskip=\tparskip}\Y{0.7}|
 
 .. list-table::
    :class: longtable
-   :widths: 10 18 48 24
+   :widths: 30 70
    :header-rows: 1
 
    * - Filter/Attribute
@@ -193,15 +190,14 @@ Table 4.4 (below): Filters/Attributes for Dataset Master Report and Standard Vie
      - Either “All” or a specific version, e.g. “1.3”.
 
    * - Metric Type
-     - One or more of:
-       Total_Dataset_Investigations
-       Total_Dataset_Requests
-       Unique_Dataset_Investigations
+     - One or more of:\ |br|\ |lb|
+       Total_Dataset_Investigations\ |br|\ |lb|
+       Total_Dataset_Requests\ |br|\ |lb|
+       Unique_Dataset_Investigations\ |br|\ |lb|
        Unique_Dataset_Requests
 
    * - Exclude_Monthly_Details
      - Either “True” or “False”.
-\*
 
 If a filter is applied to a column that doesn’t show on the report, usage for all selected attribute values is summed and the totals are presented in the report.
 
