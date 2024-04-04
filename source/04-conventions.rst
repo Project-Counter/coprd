@@ -7,7 +7,7 @@ Conventions
 
 This Code of Practice for Research Data is implemented using the following convention:
 
-The keywords “MUST”, “MUST NOT”, “REQUIRED”, “RECOMMENDED”, and “OPTIONAL” in this document are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119<\a> (“RFC 2119: Key words for use in RFCs to Indicate Requirement Levels,” 1997).
+The keywords “MUST”, “MUST NOT”, “REQUIRED”, “RECOMMENDED”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119: Key words for use in RFCs to Indicate Requirement Levels (1997, https://www.ietf.org/rfc/rfc2119.txt).
 
 Note that the force of these words is modified by the requirement level of the document in which they are used.
 
