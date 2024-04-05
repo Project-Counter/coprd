@@ -31,17 +31,17 @@ The COUNTER Code of Practice for Research Data
    03-execsummary
    04-conventions
    05-introduction
-   07-specifications/index
-   08-reports
-   09-delivery
-   10-logging
-   11-processing
-   12-sushi
-   13-acknowledgements
-   14-references
+   06-specifications/index
+   07-reports
+   08-delivery
+   09-logging
+   10-processing
+   11-sushi
+   12-acknowledgements
+   13-references
 
 .. toctree::
    :maxdepth: 0
    :hidden:
 
-   appendices/index
+   14-appendices/index
