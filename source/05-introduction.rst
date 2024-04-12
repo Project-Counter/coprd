@@ -17,7 +17,7 @@ The purpose of the Code of Practice for Research Data Usage Metrics is to facili
 Scope
 """""
 
-This Code of Practice for Research Data Usage Metrics is aligned with the <a href="https://cop5.projectcounter.org/en/5.0.3/index.html">COUNTER Code of Practice Release 5<\a> and provides a framework for recording and exchanging online usage statistics for research data at an international level. It covers the following areas: data elements to be measured; definitions of these data elements; content and format of usage reports; requirements for data processing; and guidelines to avoid duplicate counting.
+This Code of Practice for Research Data Usage Metrics is aligned with the COUNTER Code of Practice Release 5 (https://cop5.projectcounter.org/en/5.0.3/index.html) and provides a framework for recording and exchanging online usage statistics for research data at an international level. It covers the following areas: data elements to be measured; definitions of these data elements; content and format of usage reports; requirements for data processing; and guidelines to avoid duplicate counting.
 
 
 Relationship to COUNTER Code of Practice Release 5
