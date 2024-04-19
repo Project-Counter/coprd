@@ -10,7 +10,6 @@ The COUNTER Code of Practice for Research Data
 
 .. only:: not latex
 
-   Add abstract...
 
 .. only:: not (latex or builder_html)
 
