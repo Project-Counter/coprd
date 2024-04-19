@@ -10,6 +10,9 @@ The COUNTER Code of Practice for Research Data
 
 .. only:: not latex
 
+COUNTER and the Make Data Count project contributed to the development of the COUNTER Code of Practice for Research Data.
+
+The Code of Practice for Research Data Usage Metrics standardizes the generation and distribution of usage metrics for research data, enabling for the first time the consistent and credible reporting of research data usage
 
 .. only:: not (latex or builder_html)
 
