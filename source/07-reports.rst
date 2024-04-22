@@ -45,7 +45,7 @@ Table 4.2 (below): Header for Dataset Master Report and Standard Views
 
 .. list-table::
    :class: longtable
-   :widths: 10 35 55
+   :widths: 10 30 60
    :header-rows: 1
 
    * - Row

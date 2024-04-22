@@ -76,8 +76,9 @@ The following metric types are defined to enable reporting. There is no signific
 
 This group of Metric Types represents activities where datasets were retrieved (Requests) or information about a dataset (e.g. metadata) was examined (Investigations).  Any user activity that can be attributed to a Dataset will be considered an Investigation, including downloading or viewing the Dataset. Requests are limited to user activity related to retrieving or viewing the Dataset itself.
 
-Total_Dataset, Unique_Dataset
-The metric types that begin with Total_ mean that if a dataset was accessed multiple times in a user session, the metric would increase by the number of times the Dataset was accessed (minus any adjustments for double-clicks).
+**Total_Dataset, Unique_Dataset**
+
+The metric types that begin with Total\_ mean that if a dataset was accessed multiple times in a user session, the metric would increase by the number of times the Dataset was accessed (minus any adjustments for double-clicks).
 
 Unique_Dataset metrics help eliminate the effect different styles of user interface may have on usage counts. If the same dataset was accessed multiple times in a given user session, the corresponding metric can only increase by 1 to simply indicate that the dataset was accessed in the session.
 
@@ -89,7 +90,7 @@ Table 3.5 (below): List of Metric Types
 
 .. list-table::
    :class: longtable
-   :widths: 30 41 19 10
+   :widths: 25 48 17 10
    :header-rows: 1
 
    * - Metric Type

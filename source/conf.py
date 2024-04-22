@@ -195,7 +195,7 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Research Data}}\par
+                {\Huge \textbf{\color{TitleColor} for Research Data}}\par
                 \vspace{50pt}
                 {Published: September 2018}\par
                 {PDF created: \ddmonthyyyy\today}\par

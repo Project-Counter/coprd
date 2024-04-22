@@ -17,11 +17,11 @@ Table 8.1 (below): Research Data SUSHI API Paths
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.25}|>{\raggedright\arraybackslash}\Y{0.75}|
 
 .. list-table::
    :class: longtable
-   :widths: 10 18 48 24
+   :widths: 25 75
    :header-rows: 1
 
    * - Path
