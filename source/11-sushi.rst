@@ -13,7 +13,7 @@ Research Data SUSHI API Paths to Support
 
 The following paths (methods) MUST be supported:
 
-Table 8.1 (below): Research Data SUSHI API Paths
+Table 11.1 (below): Research Data SUSHI API Paths
 
 .. only:: latex
 

@@ -18,7 +18,7 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
 
 As indicated in the JSON code in Figure B (above), multiple exceptions can be returned, and the exceptions have the following elements:
 
-* code: is a numeric exception number that identifies the exception. See table 1 for values.
+* code: is a numeric exception number that identifies the exception. See table B.1 for values.
 * severity: indicates if the exception is one of:
 
   * Fatal: unable to complete the transaction. The problem is with the service and may be temporary and a retry could be successful. No report is returned. Example: service busy.

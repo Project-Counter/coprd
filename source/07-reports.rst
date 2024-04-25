@@ -7,7 +7,7 @@ Dataset Reports
 
 Dataset reports provide a summary of activity related to a dataset and provide a means of evaluating the reuse of that dataset.
 
-Table 4.1 (below): Dataset Master Report and Standard Views
+Table 7.1 (below): Dataset Master Report and Standard Views
 
 .. only:: latex
 
@@ -33,11 +33,11 @@ Table 4.1 (below): Dataset Master Report and Standard Views
 Report Header
 """""""""""""
 
-Table 4.2 shows the header details for the Dataset Master Report which contain additional filters and breakdowns beyond those included in the standard COUNTER reports, and are reported at the Dataset level, and its Standard Views.
+Table 7.2 shows the header details for the Dataset Master Report which contain additional filters and breakdowns beyond those included in the standard COUNTER reports, and are reported at the Dataset level, and its Standard Views.
 
 For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The SUSHI version of the report MUST comply with the Report_Header definition in the Research Data SUSHI API Specification (see Section 8). Entries in the table appearing in italics describe the values to include.
 
-Table 4.2 (below): Header for Dataset Master Report and Standard Views
+Table 7.2 (below): Header for Dataset Master Report and Standard Views
 
 .. only:: latex
 
@@ -100,9 +100,9 @@ Table 4.2 (below): Header for Dataset Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-When applicable, the following elements MUST appear in the tabular report in the order they appear in Table 4.3. For guidance on how these fields appear in the JSON format, refer to the Research Data SUSHI API Specification (see Section 8).
+When applicable, the following elements MUST appear in the tabular report in the order they appear in Table 7.3. For guidance on how these fields appear in the JSON format, refer to the Research Data SUSHI API Specification (see Section 8).
 
-Table 4.3 (below): Column Headings/Elements for Dataset Master Report and Standard Views
+Table 7.3 (below): Column Headings/Elements for Dataset Master Report and Standard Views
 
 .. only:: latex
 
@@ -164,9 +164,9 @@ Table 4.3 (below): Column Headings/Elements for Dataset Master Report and Standa
 Filters and Attributes
 """"""""""""""""""""""
 
-Table 4.4 presents the values that can be chosen for the Dataset Master Report and that are pre-set for the Standard Views.
+Table 7.4 presents the values that can be chosen for the Dataset Master Report and that are pre-set for the Standard Views.
 
-Table 4.4 (below): Filters/Attributes for Dataset Master Report and Standard Views
+Table 7.4 (below): Filters/Attributes for Dataset Master Report and Standard Views
 
 .. only:: latex
 

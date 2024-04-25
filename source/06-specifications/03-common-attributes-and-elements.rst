@@ -15,7 +15,7 @@ Research data usage reports are provided by different types of content hosts, an
 
 The Code of Practice for Research Data Usage Metrics uses the following host types:
 
-Table 3.3 (below): List of Host Types
+Table 6.3 (below): List of Host Types
 
 .. only:: latex
 
@@ -44,7 +44,7 @@ Data Types
 
 The COUNTER Code of Practice Release 5 reports scholarly information in many ways. These major groupings are referred to as Data Types. Only the Dataset Data Types are used by the Code of Practice for Research Data Usage Metrics. Reporting of collections is restricted to pre-set collections that are defined like databases.
 
-Table 3.4 (below): List of Data Types
+Table 6.4 (below): List of Data Types
 
 .. only:: latex
 
@@ -82,7 +82,7 @@ The metric types that begin with Total\_ mean that if a dataset was accessed mul
 
 Unique_Dataset metrics help eliminate the effect different styles of user interface may have on usage counts. If the same dataset was accessed multiple times in a given user session, the corresponding metric can only increase by 1 to simply indicate that the dataset was accessed in the session.
 
-Table 3.5 (below): List of Metric Types
+Table 6.5 (below): List of Metric Types
 
 .. only:: latex
 
@@ -128,7 +128,7 @@ Access Methods
 
 In order to track content usage by machines, and to keep that usage separate from regular usage by humans, the Access_Method attribute is used.
 
-Table 3.6 (below): List of Access Methods
+Table 6.6 (below): List of Access Methods
 
 .. only:: latex
 
@@ -162,7 +162,7 @@ Year of Publication (YOP)
 
 Analyzing collection usage by the age of the content is also desired. The “YOP” usage attribute represents year of publication.
 
-Table 3.7 (below): Year of Publication Formatting
+Table 6.7 (below): Year of Publication Formatting
 
 .. only:: latex
 

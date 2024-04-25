@@ -17,7 +17,7 @@ Report Header
 
 The first 10 rows of a tabular report contain the header, and the 11th row is always blank. The COUNTER Code of Practice Release 5 rows Institution_Name and Institution_ID are not used. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular reports have the same names in Column A. Column B entries will vary by report.
 
-Table 3.2 (below): Reports Header Elements
+Table 6.2 (below): Reports Header Elements
 
 .. only:: latex
 
