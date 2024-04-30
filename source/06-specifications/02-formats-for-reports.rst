@@ -5,7 +5,7 @@
 Formats for Reports
 ===================
 
-Code of Practice for Research Data Usage Metrics reports can be delivered in tabular form or as machine-readable JSON file via the SUSHI protocol. The tabular form MUST be a tab-separated-value Unicode text file. The machine-readable format MUST comply with the Research Data SUSHI API Specification (See Section 8).
+Code of Practice for Research Data Usage Metrics reports can be delivered in tabular form or as machine-readable JSON file via the SUSHI protocol. The tabular form MUST be a tab-separated-value Unicode text file. The machine-readable format MUST comply with the Research Data SUSHI API Specification (See Section 11).
 
 All reports have the same layout and structure. Note that the Research Data SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via SUSHI.
 
@@ -33,7 +33,7 @@ Table 6.2 (below): Reports Header Elements
      - Example
 
    * - Report_Name
-     - The name of the report as it appears in Sections 3.1 and 3.2 of this document. Must be Dataset Report.
+     - The name of the report as it appears in Sections 6.1 and 6.2 of this document. Must be Dataset Report.
      - Dataset Report
 
    * - Report_ID
@@ -65,7 +65,7 @@ Table 6.2 (below): Reports Header Elements
           
    * - Reporting_Period
      - The date range for the usage represented in the report, in the form of: “begin_date=yyyy-mm-dd”; “end_date=yyyy-mm-dd”. Should conform with ISO 8601 (ISO 8601:2004 – Data elements and interchange formats, 2004).
-       The begin_date MUST be the first day of the month, whereas the end_date can be the last day of the month for a complete monthly report, or any other day in the month for a partial monthly report (See Section 3.3.7).
+       The begin_date MUST be the first day of the month, whereas the end_date can be the last day of the month for a complete monthly report, or any other day in the month for a partial monthly report (See Section 6.3.6).
      - begin_date=2016-01-01; end_date=2016-08-30
      
    * - Created
