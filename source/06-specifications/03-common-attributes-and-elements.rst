@@ -151,7 +151,7 @@ Table 6.6 (below): List of Access Methods
      - DSR
      
    * - Machine
-     - Refers to activities on a platform or content host that represent typical machine behavior. This includes only legitimate machine access and excludes internet robots and crawlers (see Section 7.8).
+     - Refers to activities on a platform or content host that represent typical machine behavior. This includes only legitimate machine access and excludes internet robots and crawlers (see Section 10.5).
      - Repository\ |br|\ |lb|
        Data Repository
      - DSR
@@ -215,5 +215,5 @@ Missing and Unknown Field Values
   * If a field value is missing or unknown (i.e. the DOI for an item doesn’t exist or isn’t known), the field MUST be left blank. For clarity, the field MUST NOT contain values such as “unknown” or “n/a”.
 * For SUSHI version of reports
 
-  * If the value of a field is missing or unknown and the Research Data SUSHI API Specification (see Section 8) indicates the field is REQUIRED, the value of the field MUST be expressed as empty as appropriate for the data type.
+  * If the value of a field is missing or unknown and the Research Data SUSHI API Specification (see Section 11) indicates the field is REQUIRED, the value of the field MUST be expressed as empty as appropriate for the data type.
   * If the value of a field is missing or unknown and the field is not REQUIRED according to the Research Data SUSHI API Specification, the field MUST be omitted from the response.
