@@ -35,7 +35,7 @@ Report Header
 
 Table 7.2 shows the header details for the Dataset Master Report which contain additional filters and breakdowns beyond those included in the standard COUNTER reports, and are reported at the Dataset level, and its Standard Views.
 
-For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The SUSHI version of the report MUST comply with the Report_Header definition in the Research Data SUSHI API Specification (see Section 8). Entries in the table appearing in italics describe the values to include.
+For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The SUSHI version of the report MUST comply with the Report_Header definition in the Research Data SUSHI API Specification (see Section 11). Entries in the table appearing in italics describe the values to include.
 
 Table 7.2 (below): Header for Dataset Master Report and Standard Views
 
@@ -100,7 +100,7 @@ Table 7.2 (below): Header for Dataset Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-When applicable, the following elements MUST appear in the tabular report in the order they appear in Table 7.3. For guidance on how these fields appear in the JSON format, refer to the Research Data SUSHI API Specification (see Section 8).
+When applicable, the following elements MUST appear in the tabular report in the order they appear in Table 7.3. For guidance on how these fields appear in the JSON format, refer to the Research Data SUSHI API Specification (see Section 11).
 
 Table 7.3 (below): Column Headings/Elements for Dataset Master Report and Standard Views
 
