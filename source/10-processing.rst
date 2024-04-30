@@ -89,4 +89,4 @@ Many researchers access and analyze data using scripts or automated tools, espec
 
 For the purpose of reporting usage according to the Code of Practice for Research Data Usage Metrics, machine access does not require prior permission and/or the use of specific endpoints or protocols. This is in contrast to the COUNTER Code of Practice Release 5.
 
-The distinction between legitimate machine use and robot or web crawler traffic is made based on the user agent (see Section 7.5).
+The distinction between legitimate machine use and robot or web crawler traffic is made based on the user agent (see Section 10.5).
